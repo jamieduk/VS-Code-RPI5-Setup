@@ -1,0 +1,92 @@
+Codestral 22b Llama3 Codeseeker with Ollama Open Source AI Code Assistant Tutorial 
+
+
+
+
+ollama use codestral
+
+https://www.youtube.com/watch?v=XGc0Q3tJ7s0
+
+
+Visual studio ext
+
+
+offensivesecurity/vhost-fuzzer.sh
+
+ext install Continue.continue
+
+
+
+or
+https://marketplace.visualstudio.com/items?itemName=ex3ndr.llama-coder
+
+https://www.continue.dev/
+
+
+model 3 gb for rpi
+
+
+stable-code:3b-code-q4_0
+
+ollama run stable-code:3b-code-q4_0
+ollama pull nomic-embed-text
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Visual Studio Code supports ARM-based devices and can be installed on Raspberry Pi OS. You can download the ARM version of VS Code from the official VS Code website.
+Download and Install VS Code:
+
+Open a terminal on your Raspberry Pi and run the following commands to download and install VS 
+
+
+sudo apt update
+sudo apt install -y wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+sudo sh -c 'echo "deb [arch=armhf] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt update
+sudo apt install -y code
+
+
+Launch Visual Studio Code:
+
+code --install-extension ms-python.python
+
+or
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+ext install ex3ndr.llama-coder
+
+
+
+
+You can start Visual Studio Code from the terminal by typing code or by finding it in your application menu.
+Install Extensions:
+
+Once Visual Studio Code is running, you can install extensions through the Extensions view (accessible from the sidebar or by pressing Ctrl+Shift+X).
+Search for the extension you need (such as "Python", "C/C++", or "Remote - SSH") and click Install.
+Recommended Extensions for ARM-based Raspberry Pi:
+Python:
+
+For Python development, install the Python extension by Microsoft.
+C/C++:
+
+For C/C++ development, install the C/C++ extension by Microsoft.
+Remote - SSH:
+
+If you need to work on a remote machine, the Remote - SSH extension allows you to open a remote folder on any remote machine with SSH access.
+GitLens:
+
+For enhanced Git capabilities, consider the GitLens extension.
+Docker:
+
+If you are using Docker, the Docker extension can help manage your Docker containers and images.
+Additional Resources:
+Visual Studio Code on ARM - Official documentation for running VS Code on ARM devices.
+Raspberry Pi Documentation - Comprehensive guide for getting started and using Raspberry Pi.
+
+
+
+

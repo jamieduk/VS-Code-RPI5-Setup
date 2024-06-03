@@ -1,0 +1,15 @@
+{
+    "ollama.models": [
+        {
+            "title": "Codestral",
+            "provider": "ollama",
+            "model": "stable-code:3b-code-q4_0"
+        }
+    ],
+    "ollama.tabAutocompleteModel": {
+        "title": "Codestral",
+        "provider": "ollama",
+        "model": "stable-code:3b-code-q4_0"
+    }
+}
+
